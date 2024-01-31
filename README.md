@@ -53,13 +53,7 @@ scenes of the same target: techniques and applications_ ”, _Proceedings IEEE I
 R. Touzi, A. Lopez, J. Bruniquel, and P.W. Vachon, “Coherence estimation for SAR imagery”, _IEEE
 Transactions on Geoscience and Remote Sensing_ , vol. 37, no. 1, January 1999.
 
-2. S.R. Cloude, “ _Polarisation, Applications in Remote Sensing_ , Oxford, UK: Oxford University Press,
-2010.
-
-#### Documentation:
-
-#### Elsa Carla De Grandi
-
+S.R. Cloude, “ _Polarisation, Applications in Remote Sensing_ , Oxford, UK: Oxford University Press, 2010.
 
 R. Touzi, and A. Lopes, “Statistics of the Stokes parameters and of the complex coherence parameters in
 one-look and multilook speckle field”, _IEEE Transactions on Geoscience and Remote Sensing_ , vol. 34,
@@ -68,6 +62,11 @@ pp. 519–532, March 1996.
 J-S. Lee, S.R. Cloude, K.P. Papathanassious, M.R. Grunes, and I.H. Woodhouse, “Speckle filtering and
 coherence estimation of polarimetric SAR interferometry data for forest applications”, _IEEE Transactions
 on Geoscience and Remote Sensing_ , vol. 41, no. 10, 2254–2263, October 2003.
+
+#### Documentation:
+
+#### Elsa Carla De Grandi
+
 
 ## Input data sets requirements
 
