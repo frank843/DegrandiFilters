@@ -80,6 +80,19 @@ on Geoscience and Remote Sensing_ , vol. 41, no. 10, 2254–2263, October 2003.
 
 #### Filtered (e.g. Goldstein) coherence from the flattened interferogram.
 
-## User processing parameters requirements:
-
-#### None.
+## Example installation:
+### Create Python Environment
+`python -m venv .venv`
+### Activate Environment
+Windows:  
+`.venv/Scripts/activate`  
+Unix/macOS/Linux:  
+`source .venv/bin/activate`  
+### Install requirements  
+`pip install -r requirements.txt`
+### Test installation:
+#### Place .tif file inside /data folder
+### Convert .tif to ENVI
+`python tifToFloat.py filename.tif`
+#### Run Filter
+`python specklekiller.py filename`

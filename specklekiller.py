@@ -45,3 +45,32 @@ def specklekiller(dir, file, wavdir, outdir, outfile, dp, dl, skipdwt):
     
 
 
+
+
+
+import sys
+
+dir='./data'
+outdir=dir
+wavdir=dir+'/wavdir'
+
+file = sys.argv[1] #'ALOS2337193650-200820_WBDR2.2GUD_HH_SLP'
+outfile = file
+
+#dp = 16772
+#dl =   16249
+info ={}
+with open(dir+'/'+file+'.hdr', 'r') as f:
+    for line in f:
+        line = line.strip()
+        if '=' not in line:
+            continue
+        key,value = line.split('=')
+        info[key.strip()]=value.strip()
+
+print(info)
+
+dp = int(info['samples'])
+dl = int(info['lines'])
+
+specklekiller(dir, file, wavdir, outdir, outfile, dp, dl, 0)

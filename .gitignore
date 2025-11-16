@@ -1,0 +1,6 @@
+data/*
+!data/wavdir
+data/wavdir/*
+__pycache__
+.venv
+.DS_Store
