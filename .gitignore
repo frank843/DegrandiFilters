@@ -1,6 +1,9 @@
 data/*
+!data/.gitkeep
 !data/wavdir
 data/wavdir/*
+!data/wavdir/.gitkeep
+
 __pycache__
 .venv
 .DS_Store

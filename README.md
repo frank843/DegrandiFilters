@@ -82,7 +82,7 @@ on Geoscience and Remote Sensing_ , vol. 41, no. 10, 2254–2263, October 2003.
 
 ## Example installation:
 ### Create Python Environment
-`python -m venv .venv`
+`python3 -m venv .venv`
 ### Activate Environment
 Windows:  
 `.venv/Scripts/activate`  
@@ -91,8 +91,8 @@ Unix/macOS/Linux:
 ### Install requirements  
 `pip install -r requirements.txt`
 ### Test installation:
-#### Place .tif file inside /data folder
+#### Place .tif files inside data folder
 ### Convert .tif to ENVI
-`python tifToFloat.py filename.tif`
+`python3 tifToFloat.py filename.tif`
 #### Run Filter
-`python specklekiller.py filename`
+`python3 specklekiller.py filename`
